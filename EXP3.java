@@ -17,6 +17,9 @@ public class Easy {
     }
 }
 
+// output
+// Enter a number: -3
+// Error: Cannot calculate the square root of a negative number.
 
 // ATM Withdrawal System with Exception Handling
 import java.util.Scanner;
@@ -55,6 +58,12 @@ public class Medium {
         }
     }
 }
+
+// output
+// Enter PIN: 1234
+// Withdraw Amount: 5000
+// Error: Insufficient balance. Current Balance: 3000.0
+// Final Balance: 3000.0
 
 
 
@@ -99,3 +108,9 @@ public class hard {
         }
     }
 }
+
+
+//  output 
+//Enroll in Course: cse
+// Prerequisite: java
+// Error: PrerequisiteNotMetException - Complete java before enrolling in cse.
